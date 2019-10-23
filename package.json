@@ -1,0 +1,26 @@
+{
+  "name": "adyen-3ds2-js-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelarigato/adyen-3ds2-js-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelarigato/adyen-3ds2-js-utils/issues"
+  },
+  "homepage": "https://github.com/axelarigato/adyen-3ds2-js-utils#readme",
+  "dependencies": {
+    "adyenthreeds2-js-utils": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
